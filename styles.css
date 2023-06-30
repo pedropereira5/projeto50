@@ -1,0 +1,38 @@
+.menu {
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  /* Adicione as propriedades abaixo para alinhar o conteúdo do menu. */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.grid {
+  /* Adicione as propriedades abaixo para criar uma grade com elementos alinhados. */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+  width: 310px;
+  font-family: fantasy;
+}
